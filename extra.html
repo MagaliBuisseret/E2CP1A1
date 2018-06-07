@@ -1,0 +1,101 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>     
+	<meta charset="UTF-8">     
+	<title>Box model</title>     
+    <style>
+        body{
+            margin: 0px;
+        }
+        .div1{
+            width: 80%;
+            height: 45px;
+            background-color: black;
+            margin: 0px 100px 0px 100px;
+            position: static;
+        }
+        div.div1 h1{
+            color: grey;
+            margin-top: 0px;
+            position: relative;
+            left: 20px;
+        }
+        .div2{
+            width: 25%;
+            height: 150px;
+            background-color: #C1C4C0;
+            margin-left: 100px;
+            position: relative;  
+            float: left; 
+        }
+        div.div2 h2{
+            margin-top: 0px;
+            position: relative;
+            left: 20px;  
+        }
+        div.div2 ul{
+            margin-top: 0px;
+            position: relative;
+            left: 20px;  
+        }
+        .div3{
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            width: 54%;
+            height: 150px;
+            position: relative;   
+        }
+        div.div3 h2{
+            float: left;
+            padding: 5px;
+            margin: 0px;
+            position: relative;   
+        }
+        div.div3 p{
+            float: left;
+            margin: 0px;
+            padding: 5px;
+            position: relative;   
+        }
+        .div4{
+            width: 80%;
+            height: 30px;
+            background-color: grey;
+            margin: 0px 100px 0px 100px;
+            position: static;   
+        }
+        div.div4 p{
+            color: white;
+            top: 185px;
+            left: 550px;
+            position: absolute;   
+        }
+    </style>
+</head> 
+<body>    
+	<div class="div1">
+        <h1>Título página</h1>   
+    </div>
+    <div class="div2">
+        <h2>Menú</h2>
+        <ul>
+            <li> Item 1 </li>
+            <li> Item 2 </li>
+            <li> Item 3 </li>
+            <li> Item 4 </li>
+            <li> Item 5 </li>
+        </ul>
+    </div>
+    <div class="div3">
+        <h2>Sub-título</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A vitae hic culpa consectetur placeat quisquam! Maxime facilis impedit, minus. Ducimus dolore fugiat delectus quisquam odit? Minima harum, vitae soluta eos. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A vitae hic culpa consectetur placeat quisquam! Maxime facilis impedit, minus. Ducimus dolore fugiat delectus quisquam odit? Minima harum, vitae soluta eos. </p>
+    </div>
+    <div style="clear: both;"></div>
+    <div class="div4">
+        <p>Todos los derechos reservados</p>
+    </div>
+
+</body> 
+</html>
